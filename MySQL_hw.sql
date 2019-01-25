@@ -49,7 +49,8 @@ having count(distinct a.first_name) > 1;
  update actor set first_name = "GROUCHO" where actor_id = 172;
  
 -- 5a. Locate the schema of the address table. 
--- found by hoovering over "sakila", clicking on "i" info icon,
+Show create table address;
+-- Also, i found table schema by hoovering over "sakila", clicking on "i" info icon,
 -- then, selecting the "tables" tab, then right clicking on "address" table
 -- hoovering over to "DDL" Data Data Definition Language.
 CREATE TABLE `address` (
